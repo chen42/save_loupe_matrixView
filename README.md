@@ -15,4 +15,7 @@ The [Loupe browser](https://support.10xgenomics.com/genome-exome/software/visual
 * optionally, you can also change the download dir in the same script; you can change headless to FALSE to have the browser window popup, which can be useful for adjusting the sleep time (wait the image to load)
 * review the structural variants and decide on the optimal x-y coordinates and save them in a text file, one per line.
 * run the python script to save the image for each set of coordinates across all the samples.
- 
+* these samples can be compiled into one using the provided shell script.
+
+![](./compiled_chr8_38400000-44800000_chr8_38330000-44730000_.png)
+![](./compiled_chr2_132621984-133421984_chr2_132650353-133450353_.png)
