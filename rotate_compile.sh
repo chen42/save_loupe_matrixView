@@ -5,9 +5,9 @@
 
 # change the following line to match your files.
 
-for chrs in {1..8} ; do
+for chrs in 20 ; do
 	chr="chr$chrs"
-	imgs=`ls $chr\_*bn_male.png`
+	imgs=`ls $chr\_*bn_both.png`
 	cnt=0
 	for i in $imgs; do
 		cnt=$(( $cnt + 5 ))
